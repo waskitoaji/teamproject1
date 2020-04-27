@@ -1,0 +1,198 @@
+* {
+    margin:0; 
+    padding:0;
+}
+*{
+	box-sizing: border-box;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+header{
+	width:100%;
+	height:90px;
+	background-color:#17A2B8;
+	position:fixed;
+	z-index:10;
+}
+
+.menu-button{
+	display:none;
+}
+
+.header-left{
+	opacity:0.8;
+	float:left;
+	font-size:32px;
+	padding-top: 6px;
+	padding-left:20px;
+}
+.header-left img{
+	height:80px;
+	width:100px;
+}
+
+.header-right{
+	font-size:24px;
+	float:right;
+}
+
+.header-right a {
+  color:black;
+  padding: 31px 25px;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  
+}
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-right li{
+	list-style: none;
+	float:left;
+	padding: 30px 30px;
+}
+
+
+.profile {
+    width: 100%;
+    height: 80vh;
+    background-color: #CAF3F9;
+}
+
+.container {
+
+    width: 100%;
+    height: 80vh;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px 0px 60px 0px;
+}
+
+
+.content-mid {
+    width: 90%;
+    height: 60%;
+    margin: auto;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    margin: 10px;
+    width: 30%;
+    background-color: #18a4e0;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 0.8;
+    transition: 0.3s ease;
+}
+
+.column:hover {
+    width: 30%;
+    height: 100%;
+}
+
+.column .foto {
+    width: 100%;
+    height: 50%;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.column .foto img {
+    width: 100%;
+}
+
+.column .nama {
+    width: 100%;
+    height: 30%;
+    background-color: #f1f2f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.column .detail {
+    width: 100%;
+    height: 20%;
+    background-color: #ced6e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+
+
+footer {
+	font-family: "Segoe UI";
+	background-color: #eee;
+	padding: 10px 40px;
+	width: 100%;
+	bottom: 0;
+	font-size: 0.9em;
+	display: flex;
+	justify-content: space-between;
+}
+
+.item {
+	display: flex;
+	flex-direction: row;
+}
+
+.kiri {
+	display: flex;
+}
+
+.icon {
+	display: flex;
+	flex-direction: column;
+}
+
+.icon img {
+	width: 40%;
+}
+
+.teks {
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.kanan {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.kanan img {
+	height: 40%;
+	align-self: center;
+	cursor: pointer;
+}
